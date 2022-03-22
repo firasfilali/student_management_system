@@ -23,6 +23,11 @@ public class Student {
 	private String lastName;
 	@Column(name = "email")
 	private String email;
+	
+	
+	public Student() {
+		
+	}
 	/**
 	 * @param firstName
 	 * @param lastName

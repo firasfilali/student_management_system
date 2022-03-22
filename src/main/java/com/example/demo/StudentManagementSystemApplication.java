@@ -26,9 +26,11 @@ public class StudentManagementSystemApplication implements CommandLineRunner{
 		Student student1 = new Student("Firas","filali","firas.filali@gmail.com");
 		studentRepository.save(student1);
 		
-		Student student2 = new Student("farah", "filali", "wissal.filali@gmail.com");
+		Student student2 = new Student("farah", "filali", "farah.filali@gmail.com");
 		studentRepository.save(student2);
 		
+		Student student3 = new Student("wissal", "filali", "wissal.filali@gmail.com");
+		studentRepository.save(student3);
 	}
 
 }
